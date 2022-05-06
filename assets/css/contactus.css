@@ -1,0 +1,202 @@
+@font-face {
+  font-family: Creato;
+  src: url(../fonts/creato-display/CreatoDisplay-Regular.otf);
+}
+
+@font-face {
+  font-family: creato-bold;
+  src: url(../fonts/creato-display/CreatoDisplay-Bold.otf);
+}
+
+body {
+  background-color: #a5c3f6;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box {
+  margin-top: 7.5%;
+  background-color: #020447;
+  width: 80%;
+  border-radius: 30px;
+  margin-left: 9.5%;
+  margin-bottom: 5%;
+  padding: 20px 0px 65px 0px;
+}
+
+#contactUs .box .quote {
+  font-size: 64px;
+  font-family: creato-bold !important;
+  margin-top: 5%;
+  padding-left: 20%;
+}
+
+#contactUs .box .subtitle {
+  font-size: 16px;
+  opacity: 0.5;
+  margin-left: 20%;
+}
+
+.fa-phone,
+.fa-envelope,
+.fa-location-dot {
+  color: #3573f5;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 24px;
+}
+
+.socialicons {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.socialicons i:first-child {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.socialicons i {
+  font-size: 18px;
+  margin-left: 10%;
+  padding: 15px;
+  border-radius: 50%;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.socialicons i:hover {
+  background-color: #3573f5;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.address {
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  border: 3px solid #020447;
+}
+
+.address i {
+  margin-top: 0 !important;
+}
+
+.address:hover {
+  background: #3572f539;
+  border: 3px solid #3573f5;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Inputs */
+.inputboxes {
+  margin-left: 10%;
+  height: 100%;
+}
+
+.contactusbox {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 20px;
+  /* box-shadow: -10px -10px 30px $inputgrey; */
+}
+
+label {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background-color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+
+#name i {
+  opacity: 0.5;
+}
+
+#name {
+  border: 3px solid #e5e5ea;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#email {
+  border: 3px solid #e5e5ea;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: 1px;
+}
+
+#email i {
+  color: #000;
+  opacity: 0.5;
+}
+
+#email input {
+  outline: 1px !important;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  background-color: #f9f9fb;
+  resize: none;
+  padding: 10px;
+  font-size: 12px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+#message {
+  width: 80%;
+  margin-left: 8%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: 1px;
+}
+
+.send {
+  margin-right: 10%;
+}
+
+.send button {
+  padding: 10px 30px 10px 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: #1b62f9;
+  color: #fff;
+  font-family: creato;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.send button:hover {
+  background-color: #3573f5;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/*# sourceMappingURL=contactus.css.map */

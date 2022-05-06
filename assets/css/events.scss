@@ -1,0 +1,78 @@
+@font-face {
+	font-family: Creato;
+	src: url(../fonts/creato-display/CreatoDisplay-Regular.otf);
+}
+
+@font-face {
+	font-family: creato-bold;
+	src: url(../fonts/creato-display/CreatoDisplay-Bold.otf);
+}
+
+$cp-darkblue: #408697;
+$cp-lightblue: #408697;
+$cp-white: #f6f6f6;
+$cp-lightgrey: #8d8c8a;
+$cp-darkgerey: #363538;
+$black: #000;
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: $cp-white;
+}
+
+#eventtitles {
+	background: rgb(22, 33, 72);
+	background: linear-gradient(
+		344deg,
+		rgba(22, 33, 72, 1) 0%,
+		rgba(86, 161, 235, 1) 100%
+	);
+	padding: 10%;
+	color: #fff;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+	#eventtitles {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50vh;
+	}
+}
+
+#eventshero {
+	padding-left: 10%;
+	height: 90vh;
+}
+
+.eventcards {
+	margin-top: 20%;
+	background-color: #fff;
+	border-radius: 20px;
+	transition: all 1s;
+}
+
+.eventcards:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	transition: all 1s;
+}
+
+.imgpart {
+	padding: 20%;
+}
+
+h4 {
+	text-transform: none !important;
+}
+
+.eventdesc {
+	border-radius: 20px;
+}
