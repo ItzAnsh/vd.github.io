@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-<!-- abc -->
+
 		<title>Victory Dome</title>
 		<meta content="" name="description" />
 		<meta content="" name="keywords" />
@@ -61,11 +61,11 @@
 						</li>
 
 						<li class="dropdown">
-							<a href="#" class="nav-link"><span>Blogs</span> </a>
+							<a href="blogs.html" class="nav-link"><span>Blogs</span> </a>
 						</li>
 
 						<li class="dropdown">
-							<a href="#" class="nav-link"><span>Updates</span> </a>
+							<a href="updates.html" class="nav-link"><span>Updates</span> </a>
 						</li>
 
 						<li class="dropdown">
@@ -174,7 +174,7 @@
 						</div>
 					</div>
 
-					<div class="row">
+					<div class="row" data-aos="fade-up" data-aos-delay="100">
 						<div
 							class="col-md-6 col-lg-8 col-sm-12 order-sm-1 order-xs-1 order-lg-10 order-md-10"
 						>
@@ -194,7 +194,7 @@
 						</div>
 
 						<div
-							class="col-md-6 col-lg-4 order-sm-10 order-lg-1 order-xs-10 order-md-1"
+							class="col-md-6 col-lg-4 order-sm-first order-lg-1 order-first order-md-1"
 						>
 							<div class="feature-block">
 								<h1 class="ms-5 display-1">Our <br />Vision 🎯</h1>
@@ -202,7 +202,7 @@
 						</div>
 					</div>
 
-					<div class="row">
+					<div class="row" data-aos="fade-up" data-aos-delay="100">
 						<div class="col-md-6 col-lg-4">
 							<div class="feature-block">
 								<h1 class="ms-5 display-1">About <br />Us 💡</h1>
@@ -781,7 +781,7 @@
 					markers: 0,
 					start: "top 60%",
 					end: "top 10%",
-					toggleActions: "play resume complete reset ",
+					toggleActions: "play resume complete complete",
 					scrub: true,
 				},
 				x: "0px",
@@ -859,6 +859,17 @@
 			/* ==================================== */
 			/* Nav Changes */
 
+			gsap.to("a.nav-link", {
+				scrollTrigger: {
+					trigger: "#header",
+					markers: 0,
+					start: "top 50%",
+					end: "top 30%",
+					toggleActions: "play resume complete reset ",
+					scrub: false,
+				},
+				color: "#000",
+			});
 			/* Nav bg-colour changes */
 			gsap.to("#header", {
 				scrollTrigger: {
