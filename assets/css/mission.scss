@@ -79,6 +79,24 @@ body {
 	}
 }
 
+@media only screen and (max-width: 424px) {
+	.titleText {
+		font-size: 80px;
+	}
+}
+
+@media only screen and (max-width: 411px) {
+	.titleText {
+		font-size: 64px;
+	}
+}
+
+@media only screen and (max-width: 411px) {
+	.titleText {
+		font-size: 48px;
+	}
+}
+
 /* ----------------------------------------- */
 
 #missionHero .block-1-text {

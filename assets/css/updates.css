@@ -1,0 +1,51 @@
+.column {
+	float: left;
+}
+
+.left {
+	width: 65%;
+}
+
+.right {
+	width: 35%;
+}
+
+.btw {
+	padding-left: 190px;
+	padding-top: 50px;
+}
+
+.btw2 {
+	padding-left: 70px;
+	padding-right: 150px;
+	padding-top: 230px;
+}
+
+.btw3 {
+	padding-left: 70px;
+	padding-right: 150px;
+	padding-top: 20px;
+}
+
+.btw4 {
+	padding-left: 70px;
+	padding-right: 150px;
+	padding-top: 70px;
+}
+
+p {
+	color: rgb(158, 154, 154) !important;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+a:hover {
+	color: rgb(241, 65, 65);
+}
+
+.copyrights {
+	color: #000 !important;
+	padding: 5px !important;
+}
