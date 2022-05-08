@@ -26,16 +26,18 @@ body {
 }
 
 #contactUs .box .quote {
-  font-size: 64px;
+  font-size: 55px;
   font-family: creato-bold !important;
   margin-top: 5%;
   padding-left: 20%;
+  width: 100%;
 }
 
 #contactUs .box .subtitle {
   font-size: 16px;
   opacity: 0.5;
   margin-left: 20%;
+  padding-top: 5%;
 }
 
 .fa-phone,
@@ -152,6 +154,19 @@ input {
   opacity: 0.5;
 }
 
+#lname {
+  border: 3px solid #e5e5ea;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#lname i {
+  opacity: 0.5;
+  color: #000;
+}
+
 #email input {
   outline: 1px !important;
 }
@@ -198,5 +213,11 @@ textarea {
   background-color: #3573f5;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+@media only screen and (max-width: 575px) {
+  input {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=contactus.css.map */

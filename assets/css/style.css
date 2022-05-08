@@ -58,6 +58,7 @@ a {
 	text-decoration: none;
 	color: #054650;
 }
+
 a:hover {
 	color: #054650;
 }
@@ -117,6 +118,10 @@ span {
 
 .img1 {
 	width: 20%;
+}
+
+.contacttitle {
+	color: #054650 !important;
 }
 
 /*--------------------------------------------------------------
@@ -335,7 +340,6 @@ a.nav-link {
 	left: 15px;
 	padding: 10px 0;
 	border-radius: 6px;
-	background-color: #f2f2f2;
 	overflow-y: auto;
 	transition: 0.3s;
 }
@@ -343,7 +347,7 @@ a.nav-link {
 .navbar-mobile a:focus {
 	padding: 10px 20px;
 	font-size: 15px;
-	color: #222;
+	color: #fff;
 }
 .navbar-mobile a:hover,
 .navbar-mobile .active,
