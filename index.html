@@ -1024,7 +1024,18 @@
 				if (x.matches) {
 					blacknav();
 				} else {
-					whitenav();
+					blacknav();
+					gsap.to("a.nav-link", {
+						scrollTrigger: {
+							trigger: ".gssection",
+							markers: 0,
+							start: "top 50%",
+							end: "top 30%",
+							toggleActions: "play resume complete reset ",
+							scrub: false,
+						},
+						color: "#fff",
+					});
 				}
 			}
 			matcher(x);
