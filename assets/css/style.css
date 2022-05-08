@@ -955,6 +955,7 @@ h2:last-child {
 #testimonials .testimonials-content {
 	box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
 	padding: 49px 20px;
+	transition: all 0.5s;
 }
 
 #testimonials .testimonials-content::before {
@@ -964,6 +965,11 @@ h2:last-child {
 	right: 43px;
 	text-align: left;
 	top: -29px;
+	transition: all 0.5s;
+}
+
+.blg {
+	transition: all 1s;
 }
 
 #testimonials .top-top > h2 {
@@ -973,6 +979,7 @@ h2:last-child {
 	letter-spacing: 2px;
 	margin-bottom: 20px;
 	text-transform: capitalize;
+	transition: all 0.5s;
 }
 
 #testimonials .top-top > h4 {
