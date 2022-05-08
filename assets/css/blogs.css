@@ -1,27 +1,120 @@
-@font-face {
-  font-family: Creato;
-  src: url(../fonts/creato-display/CreatoDisplay-Regular.otf);
+.blogtop {
+	padding-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 27px;
 }
 
-@font-face {
-  font-family: creato-bold;
-  src: url(../fonts/creato-display/CreatoDisplay-Bold.otf);
+.vl {
+	border-left: 9px solid #408697;
+	height: fit-content;
+	padding-left: 10px;
+	font-family: Garamond;
+	font-size: 10px;
+	color: rgb(158, 154, 154);
 }
 
-body {
-  width: 100%;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  background-color: #f6f6f6;
+.h1text {
+	font-family: Garamond;
+	font-size: 40px;
+	color: rgb(8, 8, 8);
+	text-align: center;
 }
 
-.titleblogs {
-  margin-top: 10%;
-  margin-left: 6%;
+.h2text {
+	font-family: Garamond;
+	font-size: 17px;
+	color: rgb(125, 121, 121);
+	text-align: center;
 }
 
-.ill1 {
-  margin-top: 10%;
+.blogbox {
+	padding-left: 100px;
 }
-/*# sourceMappingURL=blogs.css.map */
+
+.column {
+	float: right;
+	width: 33.33%;
+	padding: 5px;
+	padding-top: 90px;
+}
+
+.lattestblog {
+	padding-top: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin-left: 5%;
+}
+
+.myImg {
+	width: 450px;
+	height: 310px;
+	max-width: 480px;
+	margin: 10px 120px 50px 80px;
+	text-shadow: 2px 2px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.div2:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.h2text:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.h1text:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#div1,
+#div2 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 60px;
+}
+.imgtxt {
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #408697;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	padding: 5px;
+	width: 100px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	margin-left: 10%;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}

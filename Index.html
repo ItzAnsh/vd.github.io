@@ -857,17 +857,6 @@
 			/* ==================================== */
 			/* Nav Changes */
 
-			gsap.to("a.nav-link", {
-				scrollTrigger: {
-					trigger: "#header",
-					markers: 0,
-					start: "top 50%",
-					end: "top 30%",
-					toggleActions: "play resume complete reset ",
-					scrub: false,
-				},
-				color: "#000",
-			});
 			/* Nav bg-colour changes */
 			gsap.to("#header", {
 				scrollTrigger: {
@@ -881,18 +870,7 @@
 				color: "#f2f2f2",
 				backgroundColor: "#054650",
 			});
-			/* Nav links colour change */
-			gsap.to(".nav-link", {
-				scrollTrigger: {
-					trigger: ".gssection",
-					markers: 0,
-					start: "top 50%",
-					end: "top 50%",
-					toggleActions: "play resume complete reset ",
-					scrub: false,
-				},
-				color: "#f6f6f6",
-			});
+
 			/* Nav logo colour 'V' change */
 			gsap.to("#logo h1 span", {
 				scrollTrigger: {
@@ -1013,6 +991,43 @@
 				},
 				backgroundColor: "#E0DCE8",
 			});
+
+			var x = window.matchMedia("(max-width: 991px)");
+			function matcher(x) {
+				function blacknav() {
+					gsap.to("a.nav-link", {
+						scrollTrigger: {
+							trigger: "#header",
+							markers: 0,
+							start: "top 50%",
+							end: "top 30%",
+							toggleActions: "play resume complete reset ",
+							scrub: false,
+						},
+						color: "#000",
+					});
+				}
+
+				function whitenav() {
+					gsap.to("a.nav-link", {
+						scrollTrigger: {
+							trigger: "#header",
+							markers: 0,
+							start: "top 50%",
+							end: "top 30%",
+							toggleActions: "play resume complete reset ",
+							scrub: false,
+						},
+						color: "#fff",
+					});
+				}
+				if (x.matches) {
+					blacknav();
+				} else {
+					whitenav();
+				}
+			}
+			matcher(x);
 		</script>
 
 		<!-- Template Main JS File -->

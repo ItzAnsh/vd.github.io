@@ -146,4 +146,46 @@ body {
   margin-left: 15%;
   margin-top: 10%;
 }
+
+@media only screen and (max-width: 900px) {
+  #aboutUs img {
+    margin-left: 14%;
+  }
+}
+
+@media only screen and (max-width: 682px) {
+  #aboutUs img {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #aboutUs img {
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 569px) {
+  #aboutUs img {
+    margin-left: -10%;
+  }
+}
+
+@media only screen and (max-width: 529px) {
+  #aboutUs img {
+    margin-left: -15%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #aboutUs img {
+    margin-left: -20%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  #aboutUs img {
+    margin-left: -21%;
+  }
+}
 /*# sourceMappingURL=mission.css.map */
