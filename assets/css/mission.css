@@ -1,191 +1,191 @@
 @font-face {
-	font-family: Creato;
-	src: url(../fonts/creato-display/CreatoDisplay-Regular.otf);
+  font-family: Creato;
+  src: url(../fonts/creato-display/CreatoDisplay-Regular.otf);
 }
 
 @font-face {
-	font-family: creato-bold;
-	src: url(../fonts/creato-display/CreatoDisplay-Bold.otf);
+  font-family: creato-bold;
+  src: url(../fonts/creato-display/CreatoDisplay-Bold.otf);
 }
 
 body {
-	width: 100%;
-	overflow-x: hidden;
-	margin: 0;
-	padding: 0;
-	background-color: #f6f6f6;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
 }
 
 @media only screen and (max-width: 991px) {
-	section {
-		margin-left: 20%;
-		margin-right: 15%;
-	}
+  section {
+    margin-left: 20%;
+    margin-right: 15%;
+  }
 }
 
 .vh {
-	height: 100vh;
+  height: 100vh;
 }
 
 .vw {
-	width: 100vw;
+  width: 100vw;
 }
 
 /* Hero Section */
 #missionHero {
-	margin-top: 2%;
-	margin-left: 10%;
+  margin-top: 2%;
+  margin-left: 10%;
 }
 
 .titleText {
-	margin-top: 30%;
-	font-size: 120px;
-	font-family: creato-bold !important;
-	line-height: 100px;
-	color: #000;
+  margin-top: 30%;
+  font-size: 120px;
+  font-family: creato-bold !important;
+  line-height: 100px;
+  color: #000;
 }
 
 /* Only for font size of our mission and vision */
 /* ----------------------------------------------- */
 @media only screen and (max-width: 1252px) {
-	.titleText {
-		font-size: 112px;
-	}
+  .titleText {
+    font-size: 112px;
+  }
 }
 
 @media only screen and (max-width: 1171px) {
-	.titleText {
-		font-size: 104px;
-	}
+  .titleText {
+    font-size: 104px;
+  }
 }
 
 @media only screen and (max-width: 1091px) {
-	.titleText {
-		font-size: 96px;
-	}
+  .titleText {
+    font-size: 96px;
+  }
 }
 
 @media only screen and (max-width: 1011px) {
-	.titleText {
-		font-size: 88px;
-	}
+  .titleText {
+    font-size: 88px;
+  }
 }
 
 @media only screen and (max-width: 424px) {
-	.titleText {
-		font-size: 80px;
-	}
+  .titleText {
+    font-size: 80px;
+  }
 }
 
 @media only screen and (max-width: 411px) {
-	.titleText {
-		font-size: 64px;
-	}
+  .titleText {
+    font-size: 64px;
+  }
 }
 
 @media only screen and (max-width: 411px) {
-	.titleText {
-		font-size: 48px;
-	}
+  .titleText {
+    font-size: 48px;
+  }
 }
 
 /* ----------------------------------------- */
 #missionHero .block-1-text {
-	margin-top: 20%;
-	color: #000;
+  margin-top: 20%;
+  color: #000;
 }
 
 #missionHero .missionContent2 {
-	color: #408697;
-	font-size: 16px;
+  color: #408697;
+  font-size: 16px;
 }
 
 #missionHero .titleText2 {
-	color: #000;
-	font-size: 40px;
-	margin-top: 10%;
-	margin-left: 20%;
-	font-family: creato-bold !important;
+  color: #000;
+  font-size: 40px;
+  margin-top: 10%;
+  margin-left: 20%;
+  font-family: creato-bold !important;
 }
 
 #missionHero .aboutusContent {
-	color: #000;
-	margin-left: 20%;
+  color: #000;
+  margin-left: 20%;
 }
 
 #missionHero .aboutusContent2 {
-	color: #408697;
-	margin-left: 20%;
-	margin-top: 1%;
-	font-size: 16px;
+  color: #408697;
+  margin-left: 20%;
+  margin-top: 1%;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 991px) {
-	#missionHero .titleText2 {
-		color: #000;
-		font-size: 40px;
-		margin-top: 35%;
-		margin-left: 5%;
-		font-family: creato-bold !important;
-	}
-	#missionHero .aboutusContent {
-		color: #000;
-		margin-left: 5%;
-	}
-	#missionHero .aboutusContent2 {
-		color: #408697;
-		margin-left: 5%;
-		margin-top: 10%;
-		font-size: 16px;
-	}
+  #missionHero .titleText2 {
+    color: #000;
+    font-size: 40px;
+    margin-top: 35%;
+    margin-left: 5%;
+    font-family: creato-bold !important;
+  }
+  #missionHero .aboutusContent {
+    color: #000;
+    margin-left: 5%;
+  }
+  #missionHero .aboutusContent2 {
+    color: #408697;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 16px;
+  }
 }
 
 /* About Us Section */
 /* ------------------------------------ */
 #aboutUs img {
-	margin-left: 15%;
-	margin-top: 10%;
+  margin-left: 15%;
+  margin-top: 10%;
 }
 
 @media only screen and (max-width: 900px) {
-	#aboutUs img {
-		margin-left: 14%;
-	}
+  #aboutUs img {
+    margin-left: 14%;
+  }
 }
 
 @media only screen and (max-width: 682px) {
-	#aboutUs img {
-		margin-left: 10%;
-	}
+  #aboutUs img {
+    margin-left: 10%;
+  }
 }
 
 @media only screen and (max-width: 640px) {
-	#aboutUs img {
-		margin-left: 0%;
-	}
+  #aboutUs img {
+    margin-left: 0%;
+  }
 }
 
 @media only screen and (max-width: 569px) {
-	#aboutUs img {
-		margin-left: -10%;
-	}
+  #aboutUs img {
+    margin-left: -10%;
+  }
 }
 
 @media only screen and (max-width: 529px) {
-	#aboutUs img {
-		margin-left: -15%;
-	}
+  #aboutUs img {
+    margin-left: -15%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-	#aboutUs img {
-		margin-left: -20%;
-	}
+  #aboutUs img {
+    margin-left: -20%;
+  }
 }
 
 @media only screen and (max-width: 479px) {
-	#aboutUs img {
-		margin-left: -21%;
-	}
+  #aboutUs img {
+    margin-left: -21%;
+  }
 }
 /*# sourceMappingURL=mission.css.map */

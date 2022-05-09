@@ -1446,3 +1446,14 @@ h2:last-child {
 	color: #52d6f4;
 	font-family: creato-bold !important;
 }
+
+.list-menu h3 {
+	cursor: pointer;
+	color: #f6f6f6;
+	transition: color 0.3s;
+}
+
+.list-menu h3:hover {
+	color: rgba(255, 252, 252, 0.71);
+	transition: color 0.3s;
+}
