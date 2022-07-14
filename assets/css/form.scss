@@ -1,0 +1,160 @@
+@font-face {
+	font-family: seoge-ui;
+	src: url(../fonts/segoe-ui/Segoe-UI.ttf);
+}
+
+@font-face {
+	font-family: seoge-ui-bold;
+	src: url(../fonts/segoe-ui/Segoe-UI-Bold.ttf);
+}
+
+$cp-darkblue: #408697;
+$cp-lightblue: #52d6f4;
+$cp-white: #f6f6f6;
+$cp-lightgrey: #8d8c8a;
+$cp-darkgerey: #363538;
+$black: #000;
+
+body {
+	background-color: #62d8f5;
+}
+
+* {
+	font-family: seoge-ui;
+}
+
+.box1,
+.box2 {
+	height: 80vh;
+	position: relative;
+}
+
+.box1 {
+	background-color: $cp-darkgerey;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.box2 {
+	background-color: #62d8f5;
+	overflow: hidden;
+}
+
+.box2:before {
+	top: 0;
+	left: -210px;
+}
+
+.ques {
+	color: $cp-white;
+	font-size: 64px;
+}
+
+div.dot {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: #000;
+}
+
+.boxes {
+	background-color: $cp-white;
+}
+
+.firstrowbtns,
+.secondrowbtns,
+.thirdrowbtns {
+	color: $cp-white;
+	font-size: 25px;
+	cursor: default;
+}
+
+.firstrowbtns {
+	color: $cp-white;
+	background-color: #67d8f5;
+}
+
+.secondrowbtns {
+	color: $cp-white;
+	background-color: #61cde8;
+}
+
+.thirdrowbtns {
+	color: $cp-white;
+	background-color: #57b7cf;
+}
+
+.option1 {
+	background-color: rgba(44, 92, 105, 0.063);
+}
+
+.option2 {
+	background-color: #2c5c6920;
+}
+
+.option3 {
+	background-color: #2c5c6930;
+}
+
+.option4 {
+	background-color: #2c5c6940;
+}
+
+.option5 {
+	background-color: #2c5c6950;
+}
+
+.option6 {
+	background-color: #2c5c6960;
+}
+
+.option7 {
+	background-color: #2c5c6970;
+}
+
+.option8 {
+	background-color: #2c5c6980;
+}
+
+.option9 {
+	background-color: #2c5c6990;
+}
+
+.toggled {
+	background-color: #2c5c69;
+}
+
+.appearence {
+	transform: translateY(300px);
+	background-color: #2c5c69;
+	height: 100%;
+	font-size: 30px;
+	color: #fff;
+}
+
+.confirm {
+	font-family: seoge-ui-bold;
+}
+
+.fa-arrow-right {
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #2c5c69;
+}
+
+.nametext {
+	color: #fff;
+	font-size: 40px;
+	font-family: seoge-ui-bold;
+}
+
+.nameinput {
+	background-color: #62d8f5;
+	border: none;
+	outline: none;
+	border-bottom: 5px solid #fff;
+	width: 85%;
+	color: #fff;
+	font-size: 20px;
+}
