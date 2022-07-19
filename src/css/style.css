@@ -1,0 +1,142 @@
+/* Fonts */
+@font-face {
+	font-family: creato;
+	src: url(../../fonts/creato-display/CreatoDisplay-Regular.otf);
+}
+
+body {
+	width: 100%;
+	overflow-x: none;
+	margin: 0;
+	padding: 0;
+}
+
+.vh {
+	height: 100vh;
+}
+
+#nav {
+	background: url(../../media/nav/navbg.svg);
+	height: 120px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	padding: 31px 0px 32px 0px;
+	display: flex;
+	position: sticky;
+}
+
+#nav p {
+	font-family: creato;
+}
+
+.img {
+	height: 48px;
+	width: 56px;
+	margin-left: 13%;
+	background: url(../../media/logos/VD.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#nav .navlogo {
+	background: url(../../media/logos/VD.png);
+	background-size: 56px 48px;
+	background-repeat: no-repeat;
+	height: 58px;
+	width: 64px;
+}
+
+#nav .club {
+	padding-left: 20%;
+}
+
+#nav .about {
+	padding-left: 10%;
+}
+
+#nav .contact {
+	padding-left: 10%;
+}
+
+#nav .apply {
+	padding-left: 10%;
+}
+
+#Hero {
+	background: url(../../media/hero-section/mountain.png);
+	height: 140vh;
+	background-size: 100% 100%;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+.balloon {
+	left: 20%;
+	position: relative;
+	animation: balloonHero 3s ease-in-out;
+	animation-iteration-count: infinite;
+	height: 28%;
+}
+
+#Hero .leaf-1 {
+	height: 15%;
+	position: relative;
+	left: 70%;
+	top: 22.8%;
+}
+
+#calm {
+	background: url(../../media/hero-section/calm.svg);
+	height: 70vh;
+	background-size: 100% 100%;
+}
+
+#Left-leaf-1 {
+	animation: leaf1 3s ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+#leaf-1 {
+	position: relative;
+	left: 70%;
+	top: 23.3%;
+}
+
+#right-leaf {
+	animation: leaf1 3s ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes balloonHero {
+	0% {
+		transform: rotate(0);
+		transform-origin: right;
+	}
+
+	50% {
+		transform: rotate(5deg);
+		transform-origin: left;
+	}
+
+	100% {
+		transform: rotate(0deg);
+		transform-origin: bottom;
+	}
+}
+
+@keyframes leaf1 {
+	0% {
+		transform: rotate(0);
+		transform-origin: right;
+	}
+
+	50% {
+		transform: rotate(5deg);
+		transform-origin: right;
+	}
+
+	100% {
+		transform: rotate(0deg);
+		transform-origin: right;
+	}
+}
