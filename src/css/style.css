@@ -70,12 +70,9 @@ body {
 	background-repeat: no-repeat;
 }
 
-.balloon {
-	left: 20%;
-	position: relative;
+#balloon {
 	animation: balloonHero 3s ease-in-out;
 	animation-iteration-count: infinite;
-	height: 28%;
 }
 
 #Hero .leaf-1 {
@@ -110,12 +107,12 @@ body {
 @keyframes balloonHero {
 	0% {
 		transform: rotate(0);
-		transform-origin: right;
+		transform-origin: bottom;
 	}
 
 	50% {
 		transform: rotate(5deg);
-		transform-origin: left;
+		transform-origin: bottom;
 	}
 
 	100% {
